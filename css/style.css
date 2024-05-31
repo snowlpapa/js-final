@@ -1,0 +1,83 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 70%;
+}
+
+#clock {
+  position: fixed;
+  right: 80px;
+  top: -50px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+}
+
+#weather {
+  position: fixed;
+  right: 80px;
+  top: 90px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#greeting {
+  position: fixed;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+  top: 20%;
+  left: 40%;
+}
+
+#login-form {
+  position: fixed;
+  top: 30%;
+  left: 45%;
+}
+
+#todo-form {
+  position: fixed;
+  top: 40%;
+  left: 45%;
+}
+
+#todo-list {
+  position: fixed;
+  top: 42%;
+  left: 45%;
+}
+
+#todo-list span {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#quote {
+  justify-content: center;
+  display: flex;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#quote span {
+  margin-right: 20px;
+}
